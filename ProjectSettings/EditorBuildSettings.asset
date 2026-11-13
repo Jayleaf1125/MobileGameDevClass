@@ -5,18 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameplayOne.unity
     guid: 5b0f56e057d13e141be2869f3bd8f8e4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameplayTwo.unity
-    guid: 87ef1056e372b7945a47c80c622f83bf
+    guid: 8ed033da44c475941947badfd4f6fece
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Main Game/MainMenu.unity
     guid: 80bda70e93e410a4893f09a9a7df02b9
+  - enabled: 1
+    path: Assets/Scenes/Main Game/LevelOne.unity
+    guid: 10550b98473b2da47a757febc83c8e26
+  - enabled: 1
+    path: Assets/Scenes/Main Game/WinOneScene.unity
+    guid: 1a9dc4ecbcf0850448fa1a0fda4229c6
+  - enabled: 1
+    path: Assets/Scenes/Main Game/LevelTwo.unity
+    guid: 9b6d9576c0d9a5e438ce9a8c0ce7a31b
+  - enabled: 1
+    path: Assets/Scenes/Main Game/WinTwoScene.unity
+    guid: 672b5629c9635144db933223185cde0d
+  - enabled: 1
+    path: Assets/Scenes/Main Game/LevelThree.unity
+    guid: 6ec8026be53069547ae6087c9d1e5747
+  - enabled: 1
+    path: Assets/Scenes/Main Game/GameOver.unity
+    guid: 0229d2f4c02d76a4e8e9357891d85bf7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

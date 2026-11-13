@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sound2
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: c2b327edcc7e9bd4c9afcd6432567fb8, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: Assembly-CSharp::SoundManager
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[0].Key
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[0].Value
+    value: 
+    objectReference: {fileID: 8300000, guid: 77fdced1e97bae340af0c1ca84b54d1a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[1].Key
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[1].Value
+    value: 
+    objectReference: {fileID: 8300000, guid: c73e2cc30ee2dad43879c6d405aed64d, type: 3}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[2].Key
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[2].Value
+    value: 
+    objectReference: {fileID: 8300000, guid: ac66ed96fd9984345abfcc6205bb6f4a, type: 3}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[3].Key
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[3].Value
+    value: 
+    objectReference: {fileID: 8300000, guid: 3d67604ce70a3374fbec4d30cbee84f2, type: 3}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[4].Key
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SoundDict._serializedList.Array.data[4].Value
+    value: 
+    objectReference: {fileID: 8300000, guid: a5607eeefb2b29d4baa0817601705d12, type: 3}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []

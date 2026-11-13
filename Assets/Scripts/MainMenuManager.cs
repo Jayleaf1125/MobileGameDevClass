@@ -3,31 +3,44 @@ using UnityEngine.SceneManagement;
 
 public enum SceneType
 {
-    MainMenu,
-    GameplayOne,
-    GameplayTwo
+    MainMenu = 0,
+    LevelOne = 1,
+    WinOneScene = 2,
+    LevelTwo = 3,
+    WinTwoScene = 4,
+    LevelThree = 5,
+    GameOver = 6
 }
 
 public class MainMenuManager : MonoBehaviour
 {
+    public static MainMenuManager Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void ChangeToGameplayOne() => SceneManager.LoadScene(SceneType.GameplayOne.ToString()); 
-    public void ChangeToGameplayTwo() => SceneManager.LoadScene(SceneType.GameplayTwo.ToString());
-    public void ChangeToMainMenu() => SceneManager.LoadScene(SceneType.MainMenu.ToString());
-
-    public void ChangeScene(SceneType scene)
+    public void ChangeScene(int sceneIndex)
     {
-        Debug.Log(scene.ToString());
+        SceneType scene = (SceneType)sceneIndex;
+        SceneManager.LoadScene(scene.ToString());
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
